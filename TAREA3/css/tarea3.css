@@ -1,0 +1,80 @@
+#page-wrap {
+    
+    width: 800px;
+
+    margin: 0 auto;
+
+}
+
+#pic {
+
+	float: right;
+}
+
+#objective, .email {
+
+	color: #666666;
+	font-family: 'Open Sans', cursive;
+}
+
+.titulo-principal {
+
+	border-bottom: 1px solid #666666;
+
+}
+
+dl {
+
+     width: 700px;
+     margin: 0 auto;
+     margin-top: 136px;
+     font-family: 'Open Sans', sans-serif;
+   
+    
+
+}
+
+dd {
+
+	display: inline-block;
+    float:right;
+    margin-top:-136px;
+    width: 580px; 
+   
+}
+
+dt {
+
+	border-right: 1px solid black;	
+	height: 100px;
+	width: 80px;
+	margin: 15px; 
+	float: left;
+	font-weight: bold;
+
+}
+
+ .margin-ultimosTitulos {
+
+    margin-top: -115px;
+
+ }
+
+ a {
+
+  border-bottom: 1px dotted #666666;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	
