@@ -14,12 +14,15 @@
 #objective, .email {
 
 	color: #666666;
-	font-family: 'Open Sans', cursive;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
 .titulo-principal {
 
 	border-bottom: 1px solid #666666;
+	;
+
 
 }
 
@@ -40,6 +43,7 @@ dd {
     float:right;
     margin-top:-136px;
     width: 580px; 
+    margin-right: -20px;
    
 }
 
@@ -49,15 +53,16 @@ dt {
 	height: 100px;
 	width: 80px;
 	margin: 15px; 
+	padding-right: 20px;
 	float: left;
-	font-weight: bold;
+    font-weight: bold;
 
 }
 
  .margin-ultimosTitulos {
 
     margin-top: -115px;
-
+    font-family: 'Open Sans', bold;
  }
 
  a {
@@ -67,6 +72,13 @@ dt {
 
 }
 
+.space {
+     
+     margin-left: 20px;
+
+
+
+}
 
 
 

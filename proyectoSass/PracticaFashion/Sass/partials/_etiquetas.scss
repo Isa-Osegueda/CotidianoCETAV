@@ -1,0 +1,33 @@
+* {
+
+    font-family: $font-family;
+    margin: 0;
+  
+
+}
+
+
+div > p {
+  
+  width: 300px;
+  height: 100px; 
+  line-height: 20px;
+
+  
+}
+
+
+
+
+
+img[src="img/banner.gif"], img[src="img/main.jpg"] {
+
+	width: 1200px;
+}
+
+
+li a:hover {
+
+   color: blue;
+
+}
