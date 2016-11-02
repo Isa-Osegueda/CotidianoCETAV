@@ -1,0 +1,35 @@
+
+.footer {
+	background-color: #664735;
+	height: 222px;
+	padding: 36px;
+
+	div {
+	width: 234px;
+	height: 170px;
+	float: left;
+	display: inline-block;
+	color: white;
+	margin: 38px 112px;
+}
+
+p {
+   font-size: 12px;
+   line-height: 25px;
+}
+}
+
+.bottom-footer{
+	
+	height: 90px;
+	position: relative;
+
+	img {
+
+		position: absolute;
+		left: 50%;
+		top: 26px;
+
+	}
+
+}
