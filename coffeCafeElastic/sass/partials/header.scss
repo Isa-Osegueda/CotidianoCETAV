@@ -1,0 +1,87 @@
+.top-header {
+	height: 0.93em;
+	background-color: #664735;
+}
+
+.header {
+	background-color: #e8e8e8;
+	height: 25.93em;
+	position: relative;
+}
+
+.logo {
+    margin: 2.375em 0 0 7.000em;
+
+}
+
+.slides{
+	width: 75em;
+	margin: 0 auto;
+}
+
+.WELCOME {
+
+	width: 26.8em;
+	height: 7.5em;
+	position:relative;
+	left: 12.68em;
+	top: 7.5em;
+
+h2 {
+	color: #b0afb0;
+	font-weight: normal;
+
+}
+
+p {
+	color: #a2a1a2;
+	font-weight: lighter;
+	font-size: 0.93em;
+}
+
+a {
+	color: #777575;
+}
+}
+
+.img-cafe {
+	position: absolute;
+	top: 7.5em;
+	right: 32.12em;
+	
+}
+
+.buttun-right {
+	float: right;
+	margin-right: 7.5em;
+
+}
+
+.buttun-left {
+	float: left;
+	margin-left: 7.5em;
+}
+.buttun-left, .buttun-right {
+	border:none;
+	background-color: #e8e8e8;
+}
+
+.botons{
+	position: absolute;
+	margin: 7em 39.12em;
+}
+
+
+.bottons-slides{
+	height: 0.62em;
+	width: 0.62em;
+	border-radius: 12.5em 12.5em 12.5em 12.5em;
+	border:none;
+	background-color: #664735;
+
+
+}
+
+button:hover {
+   background-color: #cfcfcf;
+}

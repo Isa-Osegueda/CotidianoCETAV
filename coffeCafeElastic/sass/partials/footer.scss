@@ -1,0 +1,35 @@
+
+.footer {
+	background-color: #664735;
+	height: 13.875em;
+	padding: 2.250em;
+
+	div {
+	width: 14.625em;
+	height: 10.625em;
+	float: left;
+	display: inline-block;
+	color: white;
+	margin: 2.375em 7.000em;
+}
+
+p {
+   font-size: 0.750em;
+   line-height: 1.563em;
+}
+}
+
+.bottom-footer{
+	
+	height: 5.625em;
+	position: relative;
+
+	img {
+
+		position: absolute;
+		left: 50%;
+		top: 1.625em;
+
+	}
+
+}
