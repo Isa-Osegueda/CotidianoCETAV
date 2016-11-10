@@ -1,0 +1,87 @@
+.top-header {
+	height: 15px;
+	background-color: #664735;
+}
+
+.header {
+	background-color: #e8e8e8;
+	height: 415px;
+	position: relative;
+}
+
+.logo {
+    margin: 6% 0 0 12%x;
+
+}
+
+.slides{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.WELCOME {
+
+	width: 39%;
+	height: 120px;
+	position:relative;
+	left: 203px;
+	top: 120px;
+
+h2 {
+	color: #b0afb0;
+	font-weight: normal;
+
+}
+
+p {
+	color: #a2a1a2;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+a {
+	color: #777575;
+}
+}
+
+.img-cafe {
+	position: absolute;
+	top: 120px;
+	right: 27%;
+	
+}
+
+.buttun-right {
+	float: right;
+	margin-right: 9%;
+
+}
+
+.buttun-left {
+	float: left;
+	margin-left: 9%;
+}
+.buttun-left, .buttun-right {
+	border:none;
+	background-color: #e8e8e8;
+}
+
+.botons{
+	position: absolute;
+	margin: 7% 34%;
+}
+
+
+.bottons-slides{
+	height: 10px;
+	width: 10px;
+	border-radius: 200px 200px 200px 200px;
+	border:none;
+	background-color: #664735;
+
+
+}
+
+button:hover {
+   background-color: #cfcfcf;
+}
