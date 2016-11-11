@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper {
+	width: 95%;
+    max-width: 1400px;
+	margin: 0 auto;
+}
+ 
+nav {
+	display: table;
+	overflow: hidden;
+}
+
+
+
+
+nav li {
+	width: 200px;
+	height: 50px;
+	border: 1px solid black;
+	display: table-cell;
+
+	
+}
+
+nav img {
+    display: table-cell;
+	margin: 50px;
+}
