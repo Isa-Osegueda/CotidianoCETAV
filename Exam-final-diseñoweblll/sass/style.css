@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserratlight'; }
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url("../fonts/monserrat-light/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/monserrat-light/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+header {
+  background: url(../img/an_01.jpg);
+  height: 850px; }
+  header a:hover {
+    color: black; }
+  header hr {
+    width: 1200px; }
+  header nav {
+    margin: 20px;
+    float: right; }
+    header nav a {
+      margin: 30px;
+      color: white;
+      font-size: 14px;
+      font-family: 'montserratlight';
+      text-decoration: none; }
+
+.quienes-somos {
+  color: #d0d0d0;
+  text-align: center; }
+  .quienes-somos h3 {
+    font-size: 50px; }
+  .quienes-somos p {
+    margin: 39px; }
+  .quienes-somos div {
+    background-color: black;
+    width: 400px;
+    height: 844px; }
+    .quienes-somos div div {
+      padding-top: 230px; }
+      .quienes-somos div div img {
+        width: 30px;
+        height: 40px;
+        margin: 0 auto;
+        position: absolute; }
+  .quienes-somos img {
+    float: right;
+    width: 800px;
+    height: 844px; }
+
+.menu {
+  background: url(../img/background-menu.png);
+  height: 750px;
+  text-align: center; }
+  .menu div {
+    padding: 80px; }
+  .menu h3 {
+    font-size: 20px; }
+
+.eventos {
+  color: #d0d0d0;
+  text-align: center; }
+  .eventos button {
+    border: 1px solid #d0d0d0;
+    background: none;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin: 50px;
+    color: #d0d0d0;
+    transition: 0.05s ease-in; }
+  .eventos button:hover {
+    border: 1px solid black;
+    background-color: black;
+    transition: 0.80s ease-in; }
+  .eventos h3 {
+    font-size: 30px; }
+  .eventos p, .eventos li {
+    margin: 20px;
+    font-size: 15px; }
+  .eventos div {
+    background-color: black;
+    background: url(../img/an_05.jpg);
+    width: 400px;
+    height: 844px; }
+    .eventos div div {
+      padding-top: 230px; }
+      .eventos div div img {
+        width: 30px;
+        height: 40px;
+        margin: 0 auto;
+        position: absolute; }
+  .eventos img {
+    float: right;
+    width: 800px;
+    height: 844px; }
+
+.ubicacion {
+  position: absolute;
+  margin: 0 auto;
+  background-color: black;
+  width: 200px;
+  color: white;
+  text-align: center; }
+
+.direction {
+  display: inline-block; }
+
+.santaAna, .tresRios {
+  background-color: black;
+  width: 600px;
+  color: #d0d0d0;
+  text-align: center;
+  float: left;
+  height: 750px; }
+  .santaAna p, .tresRios p {
+    margin: 20px;
+    font-size: 15px; }
+
+.tresRios {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
