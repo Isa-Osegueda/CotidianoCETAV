@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<div class="wrapper">
+        <div id="bgmodal">
+            <div id="window">
+            <a href=""></a>
+                
+            <p>Esta seguro de eliminar esta factura?</p>
+            <button id="deleteBill">Aceptar</button>
+            <button id="cancel">Cancelar</button>
+            </div>
+        </div>      
+                <table id="displayBills" border="1">
+                    <thead id="tableHead">
+                        <tr>
+                            <th>Department</th>
+                            <th type="number" name="amount">Amount</th>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Description</th> 
+
+                            <td colspan="1">
+                                <button  id="addBill">New Bill</button>
+                            </td>
+                        </tr>
+                   
+                           
+                        
+                    </thead>
+                    <tbody id="tableBody">
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7" align="center">
+                                <button type="button" id="save">Guardar</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+        
+
+	<script type="text/javascript" src = "main.js"></script>
+</body>
+</html>

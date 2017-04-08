@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+.wrapper {
+ 
+    width: 1200px;
+    margin: 0 auto;
+}
+ 
+ 
+ 
+ 
+.dateType,  .amountName {
+     
+    float: left;
+    padding: 5px;
+    margin: 10px;
+ 
+}
+ 
+#billnote > h2{
+ 
+    color: red;
+    display: inline;
+    margin: 30px;
+ 
+ 
+}
+ 
+.containerNewBill > p {
+    display: inline;
+    margin: 36px;
+}
+
+
+
+tr:hover {
+     background-color: blue;
+}
+
+
+
+
+#bgmodal {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+    visibility: hidden;
+    
+
+}
+
+#window {
+    position: absolute;
+    background: #D3DCE3;
+    border: solid #FFF 5px; 
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    top: 28%;
+    left:30%;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
