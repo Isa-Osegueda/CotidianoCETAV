@@ -1,0 +1,79 @@
+.wrapper {
+  width: 75.000em;
+  margin: 0 auto;
+  background-color: #dedad3;
+  height: 4000px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../img/wood.png");
+  height: 5000px;
+  background-position: 10px 30px;
+  margin-top: -39px; }
+
+/*----HEADER-----*/
+.sprite {
+  /*--Set img sprite---*/
+  background-image: url("../img/main.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px; }
+
+.img-last {
+  background-position: -19px; }
+
+.img-tumblr {
+  background-position: -62px; }
+
+.img-twitter {
+  background-position: -103px; }
+
+.img-dribble {
+  background-position: -148px; }
+
+li {
+  display: inline-block;
+  margin: 5px; }
+
+.socialMedia {
+  float: right;
+  margin: 20px; }
+
+/*----LOGO----*/
+@font-face {
+  font-family: 'franchiseregular';
+  src: url("../fonts/fran/franchise-bold-webfont.woff2") format("woff2"), url("franchise-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.logo {
+  color: #6b3b25;
+  margin: 46px; }
+  .logo h1 {
+    font-family: 'franchiseregular';
+    font-size: 50px; }
+  .logo p {
+    font-size: 14px;
+    position: absolute;
+    left: 29.75em;
+    top: 4.375em; }
+
+nav {
+  background-image: url("../img/nav.png");
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 102px;
+  padding-left: 200px; }
+  nav ul {
+    float: left; }
+  nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 15px; }
+
+/*# sourceMappingURL=style.css.map */
